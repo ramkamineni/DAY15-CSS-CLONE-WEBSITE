@@ -17,13 +17,14 @@ body
     position: relative;
     top: 6vh;
 }
-.sec1 h1 
+.sec1 marquee h1 
 {
     text-align: center;
-    font-size:5vh;
+    font-size:6vh;
     color: azure;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
+    text-align: justify;
 }
 .sec2  
 {
@@ -386,3 +387,80 @@ body
     width: 40vw;
     margin: auto;
 }
+ /* mobile version */
+@media screen and (min-width:0px) and (max-width:768px) {
+    .sidebar
+    {
+        display: none;
+    }
+    .main
+    {
+        position:relative;
+        top: auto;
+        left: auto;
+        margin: auto;
+    }
+    .showcase img
+    {
+          width: 45vw;
+    }
+    .designers_0 div
+    {
+        width: 31vw;
+        height: fit-content;
+    }
+    .table
+    {
+        display: grid;
+        grid-template-columns: 45vw 45vw;
+    }
+    .contact form label
+    {
+        display: none;
+    }
+    .contact form 
+    {
+        position: relative;
+        top: 8vh;
+        
+    }
+    .mv_navbar
+{
+    position: fixed;
+    top: -1vh;
+    left: -1px;
+    z-index: 1;
+    height: 12vh;
+    width: 100%;
+    background-color: #ff0000;
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+        
+}
+.mv_navbar h1
+{
+    color: white;
+    position: relative;
+    left: 2vw;
+}
+.mv_navbar svg
+{
+    height: 8vh;
+    position: relative;
+    top: 2vh;
+    left: -1vw;
+}
+    
+}
+@media screen and (min-width:769px) and (max-width:1440px)
+{
+    .mv_navbar
+    {
+        display: none;
+    }
+}
+
+
+
