@@ -406,7 +406,7 @@ body
     }
     .designers_0 div
     {
-        width: 31vw;
+        width:fit-content;
         height: fit-content;
     }
     .table
@@ -423,6 +423,10 @@ body
         position: relative;
         top: 8vh;
         
+    }
+    .design_1
+    {
+
     }
     .mv_navbar
 {
