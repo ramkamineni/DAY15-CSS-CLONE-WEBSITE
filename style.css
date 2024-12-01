@@ -1,0 +1,388 @@
+body
+{
+    background-color:white;
+}
+.sidebar
+{
+    background-color: #ff0000;
+    position: fixed;
+    height: 100vh;
+    width: 20vw;
+    top: -1px;
+    left: -1px;
+    
+}
+.sec1  
+{
+    position: relative;
+    top: 6vh;
+}
+.sec1 h1 
+{
+    text-align: center;
+    font-size:5vh;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.sec2  
+{
+    position: relative;
+    top: 15vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1vh;
+    
+}
+.sec2 h2 
+{
+    text-align: center;
+    font-size:larger;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+.sec2 a
+{
+    text-decoration: none;
+    height: 6vh;
+    font-size: x-large;
+    
+
+}
+.sec2 a h2:hover
+{
+    color:red;
+    background-color: aliceblue;
+    
+    
+
+}
+.sec3 h2
+{
+    text-align: center;
+    font-size:larger;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    position: relative;
+    top: 22vh;
+}
+
+.sec31
+{
+    position: relative;
+    top: 23vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px; 
+    justify-content: center; 
+}
+.sec31 svg
+{
+    height: 20px;
+}
+.sec31 svg:hover
+{
+    height: 30px;
+}
+.main
+{
+    position: absolute;
+    left: 23vw;
+   
+}
+.main .b1
+{    
+    position: relative;
+    top: 6vh;
+    font-size:9vh ;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.main .b2
+{
+    font-size: 7vh;
+    font-weight: 600;
+    position: relative;
+    top: 3vh;
+
+    /* margin-top: -1vh; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ff0000;
+}
+.showcase
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 5vh;
+    position:relative;
+    top: 1vh;
+}
+.showcase img
+{
+    height: 50vh;
+    width: 36vw;
+    border-radius: 10px;
+}
+.line
+{
+    border: 3px solid;
+    border-radius: 10px;
+    width: 9vh;
+    height: 1vh;
+    background-color: #ff0000;
+    border-color: transparent;
+    position: relative;
+    top: 1vh;
+
+}
+.showcase img:hover
+{
+    width: 37vw; 
+    height: 52vh;
+} 
+#a1
+{
+    margin-top: 10vh;
+}
+
+.services p
+{  
+   position: relative;
+   top: 1vh;
+   font-size: large;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align:inline;
+}
+.designers p
+{  
+   position: relative;
+   top: 1vh;
+   font-size: large;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align:inline;
+}
+.designers_0
+{
+    
+
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 2vh;
+
+}
+.design_1
+{
+    height: 63vh;
+    width: 24vw;
+    border-radius: 10px;
+    background-color: rgb(223, 221, 218);
+}
+.design_1 img
+{
+  height: 57%;
+  width: 100%;
+}
+.design_1 b
+{
+    font-size: larger;
+}
+.design_1 p
+{
+    margin-left: 6%;
+    margin-top: %;
+}
+.table
+{
+   display: grid;
+   column-gap: 2vw;
+   /* row-gap: 2vh; */
+   grid-template-rows: 15vh 8vh 8vh 8vh 8vh 8vh 8vh 12vh ;
+   grid-template-columns:35vw 35vw ;
+   grid-template-areas:
+   "one two" 
+   "three four"
+   "five six"
+   "seven eight"
+   "nine ten"
+   "eleven twelve"
+   "thirteen fourteen"
+   "fivteen sixteen";
+}
+.table01
+{
+    background-color: gray;
+    grid-area: one;
+}
+.table02
+{
+    background-color: rgb(229, 32, 32);
+    grid-area: two;
+}
+.table03
+{
+    background-color: antiquewhite;
+    grid-area: three;
+}
+.table04
+{
+    background-color: antiquewhite;
+    grid-area: four;
+}
+
+.table05
+{
+    background-color: antiquewhite;
+    grid-area: five;
+}
+.table06
+{
+    background-color: antiquewhite;
+    grid-area: six;
+}
+.table07
+{
+    background-color: antiquewhite;
+    grid-area: seven;
+}
+.table08
+{
+    background-color: antiquewhite;
+    grid-area: eight;
+}
+.table09
+{
+    background-color: antiquewhite;
+    grid-area: nine;
+}
+.table010
+{
+    background-color: antiquewhite;
+    grid-area: ten;
+}
+.table011
+{
+    background-color: antiquewhite;
+    grid-area: eleven;
+}
+.table012
+{
+    background-color: antiquewhite;
+    grid-area: twelve;
+}
+.table013
+{
+    background-color: antiquewhite;
+    grid-area: thirteen;
+}
+.table014
+{
+    background-color: antiquewhite;
+    grid-area: fourteen;
+}
+.table015
+{
+    background-color: antiquewhite;
+    grid-area: fivteen;
+}
+.table016
+{
+    background-color: antiquewhite;
+    grid-area: sixteen;
+}
+.table div
+{
+    text-align: center;
+    align-content: center;
+    
+    border: 1px solid rgb(189, 186, 186);
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.table #a13 , #a14
+{
+    font-size: x-large;
+    color: aliceblue;
+}
+.table div .arr
+{
+    height: 60%;
+    width: 30%;
+    margin-left: 12vw;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: white;
+}
+.table div .arr a
+{
+    text-decoration: none;
+    color: black;
+}
+.table015 .arr:hover
+{
+   background-color: gray;
+   color:white;
+}
+.table016 .arr:hover
+{
+    background-color: #ff0000;
+    color: white;
+}
+.package p
+{
+    position: relative;
+   top: 1vh;
+   font-size: large;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align:inline;
+}
+.contact p
+{
+    position: relative;
+    top: 1vh;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:inline;  
+}
+.contact form
+{   
+    position: relative;
+    top: 4vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3vh;
+}
+.contact form label
+{
+    font-size: larger;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top:-3vh;
+
+}
+
+.contact form input
+{
+  width: 70vw; 
+  height: 6vh;
+  position: relative;
+  top: -4vh;
+}
+.contact form #in
+{
+    font-size: x-large;
+    width: 40vw;
+    margin: auto;
+}
